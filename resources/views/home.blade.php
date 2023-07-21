@@ -9,6 +9,13 @@
        
     </head>
     <body >
+        <header>
+            <div>
+                <a href="/">Home page</a>
+                <a href="/about">About us</a>
+            </div>
+
+        </header>
         <div>
             <h1>{{$hello}}</h1>
         </div>
