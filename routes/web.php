@@ -17,3 +17,10 @@ Route::get('/', function () {
     $hello = 'Hello world';
     return view('home', compact('hello'));
 });
+
+
+
+Route::get('/about', function () {
+    
+    return view('about');
+});
